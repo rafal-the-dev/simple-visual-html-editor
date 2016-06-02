@@ -1,0 +1,224 @@
+.main-logo .outside {
+	border: medium none black;
+    color: #41bb19;
+    font-size: 40px;
+    position: relative;
+    top: -10px;
+}
+
+.main-logo .outside:hover {
+	-webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+
+.main-logo .inside {
+	color:#5F4586;
+	font-size:15px;
+	position: absolute;
+    right: 12px;
+    top: 13px;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.main-input-size {
+	width:150px !important;
+}
+
+nav.sidebar-menu-collapsed {
+    width: 50px; 
+}
+nav.sidebar-menu-expanded {
+    width: 300px;
+}
+nav.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background: none repeat scroll 0 0 #0099ff;
+    padding: 20px 10px;
+    z-index: 1050;
+    width: 15%;
+    display: none;
+}
+nav.sidebar a#justify-icon {
+    outline: 0;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+}
+nav.sidebar a#logout-icon {
+    outline: 0;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+nav.sidebar ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+}
+nav.sidebar ul li {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+}
+nav.sidebar ul li a.expandable {
+    outline: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav.sidebar ul li a.expandable:hover {
+    color: #bbbbbb;
+}
+nav.sidebar ul li a.expandable span.expanded-element {
+    margin-left: 2px;
+    display: none;
+    font-size: 11px;
+    position: relative;
+    bottom: 2px;
+}
+nav.sidebar ul li.active {
+    background: none repeat scroll 0 0 black;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: -4px;
+    padding: 4px;
+}
+nav.sidebar ul li.active a.expandable {
+    color: white !important;
+}
+nav.sidebar ul li.active a.expandable:hover {
+    color: white !important;
+}
+nav.sidebar .tools-list {
+    display: none;
+}
+nav.sidebar .tools-object-list {
+    display: none;
+}
+nav.sidebar input, textarea {
+    color:#000000;
+}
+
+nav.sidebar  textarea {
+    width:80%;
+}
+
+nav.sidebar .tools-object-list .tool-obj {
+    margin-top:10px;
+    padding:10px 0;
+}
+
+nav.sidebar .tools-list button {
+    width:100%;
+}
+nav.sidebar .tools-object-list .menu-button {
+    width:100%;
+}
+
+#editor-block .row-checked {
+    border: 1px dotted red;
+}
+
+#editor-block .template-checked {
+    border: 1px dotted blue;
+}
+
+.removeChecked {
+    cursor: pointer;
+}
+
+.editor-number {
+    display:none;
+}
+
+.saveProject {
+    cursor: pointer;
+}
+.saveProject:hover {
+    color: #0099FF;
+}
+.add-another {
+    display: none;
+}
+.templates .list-group-item {
+    cursor:pointer;
+}
+.templates .list-group-item:hover {
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: #fff;
+    z-index: 2;
+}
+nav.sidebar .superMenu {
+    max-height: 450px;
+    overflow: auto;
+}
+nav.sidebar .tools-template-list {
+    display: none;
+}
+
+nav.sidebar .template-section .tmpForm {
+    display: none;
+}
+
+nav.sidebar .template-section .repeatItem {
+    display: none;
+}
+
+.backButton {
+    position: fixed;
+    right: 0;
+    top: 50px;
+    z-index: 1050;
+}
+
+.backButton a {
+    position: absolute;
+    top:30px;
+    right: 50px;
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 1001;
+}
+
+.backButton a:hover {
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.saveAlert .alert {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    z-index: 1090;
+}
+
+.navbar-default .navbar-nav > li > p > a.viewProject {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.collapseBtn {
+    left: 5px;
+    position: fixed;
+    top: 10px;
+    z-index: 1090;
+    color: #41BB19;
+}
+
+#templatesModel .modal-dialog  {
+    width:50%;
+}
